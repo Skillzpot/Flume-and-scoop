@@ -1,0 +1,30 @@
+
+
+Download sqoop from 
+http://sqoop.apache.org/
+
+
+Untar and move to a dir 
+rename dir to sqoop 
+
+
+In bash profile 
+export SQOOP_HOME=
+export PATH=$PATH:$SQOOP_HOME/bin
+
+restart bash profile 
+
+$ cd $SQOOP_HOME/conf
+$ mv sqoop-env-template.sh sqoop-env.sh
+
+
+Open sqoop-env.sh and edit the following lines:
+export HADOOP_COMMON_HOME=
+export HADOOP_MAPRED_HOME=
+
+
+Download mysql connector -bin.jar from 
+http://ftp.ntu.edu.tw/MySQL/Downloads/Connector-J/
+
+Untar and copy mysql-connector-java-5.1.30-bin.jar to $SQOOP_HOME/lib
+

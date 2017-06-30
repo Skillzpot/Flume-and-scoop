@@ -1,0 +1,9 @@
+
+https://flume.apache.org/download.html
+
+Download the bin and untar it 
+
+In bash profile add 
+export FLUME_HOME=<Flume Home dir>
+export PATH=$PATH:$FLUME_HOME/bin
+
